@@ -2,7 +2,6 @@ package org.fanchekeji.fun.reorder;
 
 import org.fanchekeji.fun.common.Nap;
 
-import javax.print.attribute.standard.PrinterStateReason;
 import java.util.stream.IntStream;
 
 /**
@@ -65,5 +64,9 @@ public class ReorderExample {
 
                     System.out.println("( " + x + "," + y + ")");
                 });
+
+        System.out.println();
     }
+
+
 }
